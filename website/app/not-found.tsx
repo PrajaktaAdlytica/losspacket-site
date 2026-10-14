@@ -1,0 +1,2 @@
+import {Button} from '@/components/ui';
+export default function NotFound(){return <><section className="section container narrow recovery"><span className="eyebrow">404 / A missing page</span><h1>This page isn’t<br/><em>in the packet.</em></h1><p>The evidence index is a good place to start again.</p><Button href="/">Return home</Button><Button href="/demo" secondary>Explore the demo</Button></section></>;}

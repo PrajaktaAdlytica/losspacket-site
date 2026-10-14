@@ -1,0 +1,10 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import ts from 'typescript';
+import {readFileSync} from 'node:fs';
+const code=ts.transpileModule(readFileSync(new URL('../lib/scroll-reveal.ts',import.meta.url),'utf8'),{compilerOptions:{module:ts.ModuleKind.ESNext}}).outputText;
+const {revealFrame}=await import(`data:text/javascript;base64,${Buffer.from(code).toString('base64')}`);
+test('alternating elements approach from opposite horizontal directions',()=>{assert.ok(revealFrame(780,900,800,0,64).x<0);assert.ok(revealFrame(780,900,800,1,64).x>0);});
+test('central reading stage is fully visible and aligned',()=>{assert.deepEqual(revealFrame(300,700,800,0,64),{x:0,opacity:1});});
+test('scroll reversal reproduces the same geometry without a one-shot latch',()=>{const positions=[800,600,300,600,800];const frames=positions.map(top=>revealFrame(top,top+200,800,0,64));assert.deepEqual(frames[0],frames[4]);assert.deepEqual(frames[1],frames[3]);});
+test('horizontal distance stays bounded on narrow screens and tall articles',()=>{for(const top of [-2000,0,700,2000]){const f=revealFrame(top,top+1800,844,2,24);assert.ok(Math.abs(f.x)<=24);assert.ok(f.opacity>=.18&&f.opacity<=1);}});

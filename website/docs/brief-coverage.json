@@ -1,0 +1,218 @@
+[
+  {
+    "requirement": "Tagline",
+    "status": "Covered",
+    "evidence": "Home and product pages retain the no-coverage/no-payout boundary.",
+    "route": "/"
+  },
+  {
+    "requirement": "Basic info",
+    "status": "Covered",
+    "evidence": "LossPacket, Concept 17, insured-side US property/BI owner with supervising professional.",
+    "route": "/about"
+  },
+  {
+    "requirement": "Vision",
+    "status": "Covered",
+    "evidence": "Evidence-linked, reviewable and reversible preparation.",
+    "route": "/about"
+  },
+  {
+    "requirement": "Mission",
+    "status": "Covered as proposal",
+    "evidence": "One consented redacted packet, missing-evidence checklist and reviewed working paper.",
+    "route": "/about"
+  },
+  {
+    "requirement": "Problem",
+    "status": "Covered",
+    "evidence": "Scattered records, deadlines, substitutes and unverified separate demand.",
+    "route": "/why-losspacket"
+  },
+  {
+    "requirement": "Five solutions",
+    "status": "Covered",
+    "evidence": "Five independent proposed offers on home, product index, dedicated pages and intake.",
+    "route": "/products"
+  },
+  {
+    "requirement": "Target customer",
+    "status": "Covered",
+    "evidence": "Owner, professional and bounded contributor roles distinguished.",
+    "route": "/solutions"
+  },
+  {
+    "requirement": "Core product and pricing",
+    "status": "Covered as hypothesis",
+    "evidence": "$750\u2013$2,500 case preparation and $150/month tracking; no checkout or accepted-price claim.",
+    "route": "/pricing"
+  },
+  {
+    "requirement": "Product detail",
+    "status": "Covered",
+    "evidence": "Alder Oven CL-14, fire 12 FEB 2026, PH-01/R-09/P-08, coherent amounts, disputed dates and expense uncertainty.",
+    "route": "/demo/CL-14"
+  },
+  {
+    "requirement": "Website and app experience",
+    "status": "Covered",
+    "evidence": "Timeline, source pane, policy question, working paper, missing-evidence warnings and reviewer control.",
+    "route": "/demo/CL-14"
+  },
+  {
+    "requirement": "LinkedIn go-to-market",
+    "status": "Planning deliverable",
+    "evidence": "Research/IA contains outreach drafts; About names proposed broker/accountant/restoration/association channels. No campaign or messages sent.",
+    "route": "/about"
+  },
+  {
+    "requirement": "Million-dollar expansion thesis",
+    "status": "Hypothesis only",
+    "evidence": "No revenue claim. Episodic acquisition, channel economics, repeat referrals and licensing gaps are stated. Research/IA retains the scale hypothesis.",
+    "route": "/evaluation"
+  },
+  {
+    "requirement": "Initial MVP scope",
+    "status": "Covered as proposal",
+    "evidence": "One bounded redacted property/BI packet; no coverage determination or live operation.",
+    "route": "/pilot"
+  },
+  {
+    "requirement": "Validation website",
+    "status": "Covered within concept scope",
+    "evidence": "Hero, measurable-but-unclaimed pilot question, five offers, synthetic demo, controls, hypothetical prices, FAQ and local inquiry draft.",
+    "route": "/"
+  },
+  {
+    "requirement": "Fake CRM / case progression",
+    "status": "Covered",
+    "evidence": "Reported \u2192 documents requested \u2192 working-paper draft \u2192 reviewed \u2192 owner-approved draft; not submitted.",
+    "route": "/demo/CL-14"
+  },
+  {
+    "requirement": "Validation-first structure",
+    "status": "Covered as plan",
+    "evidence": "Reviewer-grounded completeness, owner preparation time, paid commitment and written consent gates. No real validation completed.",
+    "route": "/evaluation"
+  },
+  {
+    "requirement": "Product screenshot",
+    "status": "Covered",
+    "evidence": "Actual browser desktop and mobile captures accompany the source and preview output.",
+    "route": "/demo/CL-14"
+  },
+  {
+    "requirement": "Fake-demo rules",
+    "status": "Covered",
+    "evidence": "10 unique synthetic records; visible rejected suggestion; suggested/reviewed/approved separation; no external actions; labeled local export.",
+    "route": "/demo/CL-14"
+  },
+  {
+    "requirement": "Ad and traffic plans",
+    "status": "Planning deliverable",
+    "evidence": "Research/IA supplies capped professional-audience test copy. No ad budget or advertising deployed.",
+    "route": "/evaluation"
+  },
+  {
+    "requirement": "Validation metric",
+    "status": "Covered as plan",
+    "evidence": "Reviewer-confirmed gaps, prep effort, errors and paid demand; no causal payout or fabricated ROI.",
+    "route": "/evaluation"
+  },
+  {
+    "requirement": "Build decision",
+    "status": "Covered as gates",
+    "evidence": "Licensing/referral review, lawful role, consent, agreed handling and signed paid scope; unavailable required license halts activity.",
+    "route": "/evaluation"
+  },
+  {
+    "requirement": "Notion fields",
+    "status": "Planning deliverable",
+    "evidence": "All supplied internal metadata fields retained in research/IA. No Notion system configured and no sensitive raw records stored.",
+    "route": "/evaluation"
+  },
+  {
+    "requirement": "Evidence-and-approval loop",
+    "status": "Covered",
+    "evidence": "Provenance, editable dated assumption, explicit role switch, reviewer acknowledgement, reason, stale approval and reset.",
+    "route": "/demo/CL-14"
+  },
+  {
+    "requirement": "Eight required deliverables",
+    "status": "Available across artifacts",
+    "evidence": "Research/IA supplies landing spec, demo script/dictionary, five copy blocks, schema/events, outreach/test copy, gates and screenshot brief. Website adds implementation and captures.",
+    "route": "/resources"
+  },
+  {
+    "requirement": "Required page narrative",
+    "status": "Covered",
+    "evidence": "Hero \u2192 qualifier \u2192 source evidence \u2192 offers/review workflow \u2192 demo \u2192 limits \u2192 test pricing \u2192 inquiry/FAQ; all content preserved with approved editorial pacing.",
+    "route": "/"
+  },
+  {
+    "requirement": "Screenshot requirements",
+    "status": "Covered",
+    "evidence": "1440\u00d7900 desktop and 390\u00d7844 mobile real captures; labels, missing evidence and blocked actions.",
+    "route": "/demo/CL-14"
+  },
+  {
+    "requirement": "Copyright/source rules",
+    "status": "Covered",
+    "evidence": "Original synthetic UI and assets, licensed fonts/icons, public source context; no copied customer documents/logos or unsupported claims.",
+    "route": "/resources"
+  },
+  {
+    "requirement": "Waitlist and analytics",
+    "status": "Partially implemented",
+    "evidence": "Purpose-specific labeled local forms; deletion route; local allowlisted preview events/UTMs. No live delivery, consent database, qualified-lead dedup or external analytics.",
+    "route": "/waitlist"
+  },
+  {
+    "requirement": "Ad guidelines",
+    "status": "Planning deliverable",
+    "evidence": "Copy/guidelines retained in research/IA. No real campaign, sensitive-record targeting or outcome promise.",
+    "route": "/evaluation"
+  },
+  {
+    "requirement": "Quality checklist",
+    "status": "Covered for concept build",
+    "evidence": "Five offers, source consistency, native scroll, mobile layout, reduced motion, role boundaries and no side effects; not legal clearance.",
+    "route": "/controls"
+  },
+  {
+    "requirement": "Definition of done / 32 schema keys",
+    "status": "Scope limitation",
+    "evidence": "The brief names 32 sections but supplies no external machine schema. This audit maps those sections; it cannot certify unseen schema keys or real pilot validation.",
+    "route": "/evaluation"
+  },
+  {
+    "requirement": "Visual concept preview",
+    "status": "Covered",
+    "evidence": "Approved Paper & Ink direction and corrected Joined LP implemented; concept imagery is never represented as a deployed operating product.",
+    "route": "/"
+  },
+  {
+    "requirement": "Employee handoff: 8\u201312 records",
+    "status": "Covered",
+    "evidence": "Exactly ten fictional records with completed/pending/open/held/rejected/reported states.",
+    "route": "/demo/CL-14"
+  },
+  {
+    "requirement": "Employee handoff: source/queue/report",
+    "status": "Covered",
+    "evidence": "Opened record, source pane, review controls and synthetic draft report/export.",
+    "route": "/demo/CL-14"
+  },
+  {
+    "requirement": "Sign in option",
+    "status": "Covered as preview access",
+    "evidence": "Visible header/mobile/footer Sign in link and intentional access page. No live LossPacket accounts or password collection. Hosting review login is separate.",
+    "route": "/sign-in"
+  },
+  {
+    "requirement": "Operational launch dependencies",
+    "status": "Not implemented",
+    "evidence": "Live authentication, inquiry endpoint, consent storage, real claim handling, verified operator contacts, public domain, verified social profiles and qualified paid-pilot evidence are outstanding.",
+    "route": "/controls"
+  }
+]

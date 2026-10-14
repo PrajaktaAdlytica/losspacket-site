@@ -1,0 +1,10 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import ts from 'typescript';
+const js=ts.transpileModule(readFileSync(new URL('../lib/audience-scroll.ts',import.meta.url),'utf8'),{compilerOptions:{module:ts.ModuleKind.ESNext}}).outputText;
+const {roleForProgress,roleScrollTarget}=await import('data:text/javascript;base64,'+Buffer.from(js).toString('base64'));
+test('scrolling down progresses through all three roles',()=>assert.deepEqual([0,.2,.4,.5,.8,1].map(roleForProgress),[0,0,1,1,2,2]));
+test('scrolling up reverses the same roles',()=>assert.deepEqual([1,.8,.5,.4,.2,0].map(roleForProgress),[2,2,1,1,0,0]));
+test('entry and exit clamp instead of wrapping',()=>{assert.equal(roleForProgress(-1),0);assert.equal(roleForProgress(2),2);});
+test('manual tab targets land in the selected scroll chapter',()=>{for(let i=0;i<3;i++){const y=roleScrollTarget(i,4000,106,1350);const progress=(y-4000+106)/1350;assert.equal(roleForProgress(progress),i);}});

@@ -1,0 +1,17 @@
+{
+  "project_id": "appgprj_6acfb50d7b6c81919fa7c5d099b41b98",
+  "commit_sha": "2083d2cbe84e8dbe5a1f7fe4ecd6ab1fd079a209",
+  "deployment_id": "appgdep_6acfcc7dbdc881918febdedcf77d322c",
+  "status": "succeeded",
+  "audience": "owner-private",
+  "url": "https://losspacket-evidence-preview.artfullarch32.chatgpt.site",
+  "access": "Continue with ChatGPT is required for the owner-private review deployment.",
+  "framework": "Next.js 16.4 / React 19.2 / Motion for React 14.2",
+  "scope": "33 routes, isolated synthetic demo, local-only inquiry drafts; no operating claim product or live intake.",
+  "source_zip": "LossPacket-Website-Source.zip",
+  "screenshots": "LossPacket-Website-Previews/",
+  "checks": "Build and 17 tests passed; 33 routes verified; hosted 775px audience down/up and live header-to-sign-in form verified. Authentication remains unconnected.",
+  "coverage_audit": "LossPacket-Brief-Coverage-Audit.html",
+  "revision": "Opposing audience role reveals plus complete responsive sign-in preview form",
+  "navigation_verification": "Latest deployed document has data-scroll-behavior=smooth; completed Sign in route transition resets scrollY to 0."
+}

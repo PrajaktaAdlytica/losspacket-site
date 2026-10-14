@@ -1,0 +1,16 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import ts from 'typescript';
+const source=readFileSync(new URL('../lib/demo-state.ts',import.meta.url),'utf8');
+const js=ts.transpileModule(source,{compilerOptions:{module:ts.ModuleKind.ESNext}}).outputText;
+const {transition,seed,records}=await import('data:text/javascript;base64,'+Buffer.from(js).toString('base64'));
+test('ten coherent records with unique IDs and initial status counts',()=>{assert.equal(records.length,10);assert.equal(new Set(records.map(r=>r.id)).size,10);assert.equal(records.filter(r=>r.status==='Completed').length,3);assert.equal(records.filter(r=>r.status==='Pending').length,3);});
+test('owner cannot approve an unreviewed version',()=>assert.throws(()=>transition(seed,{type:'APPROVE'}),/professional review/));
+test('missing rationale blocks a proposed edit',()=>assert.throws(()=>transition(seed,{type:'EDIT',date:'2026-02-22',rationale:' '}),/rationale/));
+test('professional cannot review before working-paper draft',()=>assert.throws(()=>transition(seed,{type:'REVIEW'}),/working paper/));
+test('explicit draft, review and owner approval preserve current version',()=>{let s=transition(seed,{type:'DRAFT'});s=transition(s,{type:'REVIEW'});s=transition(s,{type:'APPROVE'});assert.equal(s.stage,'owner-approved submission draft');assert.equal(s.approvedVersion,1);});
+test('edit after review invalidates both approvals and preserves history',()=>{let s=transition(transition(transition(seed,{type:'DRAFT'}),{type:'REVIEW'}),{type:'APPROVE'});s=transition(s,{type:'EDIT',date:'2026-02-22',rationale:'Need evidence for alternate date.'});assert.equal(s.version,2);assert.equal(s.reviewedVersion,null);assert.equal(s.approvedVersion,null);assert.equal(s.stage,'working-paper draft');assert.ok(s.events.some(x=>x.includes('Approved v1')));assert.throws(()=>transition(s,{type:'APPROVE'}));});
+test('return for correction retains rejection history',()=>{let s=transition(seed,{type:'DRAFT'});s=transition(s,{type:'REVIEW'});s=transition(s,{type:'RETURN',reason:'Missing reopening evidence.'});assert.equal(s.reviewedVersion,null);assert.ok(s.events.some(x=>x.includes('rejected automatic payroll')));});
+test('owner can revoke draft approval',()=>{let s=transition(transition(transition(seed,{type:'DRAFT'}),{type:'REVIEW'}),{type:'APPROVE'});s=transition(s,{type:'REVOKE'});assert.equal(s.approvedVersion,null);assert.equal(s.stage,'broker reviewed');});
+test('reset returns deterministic seed',()=>{const s=transition({...seed,version:9},{type:'RESET'});assert.deepEqual(s,seed);});

@@ -1,0 +1,172 @@
+{
+  "routes": [
+    {
+      "route": "/",
+      "h1_count": 1,
+      "links_resolve": true
+    },
+    {
+      "route": "/products",
+      "h1_count": 1,
+      "links_resolve": true
+    },
+    {
+      "route": "/products/claims-desk",
+      "h1_count": 1,
+      "links_resolve": true
+    },
+    {
+      "route": "/products/claims-review",
+      "h1_count": 1,
+      "links_resolve": true
+    },
+    {
+      "route": "/products/claims-proof",
+      "h1_count": 1,
+      "links_resolve": true
+    },
+    {
+      "route": "/products/claims-signal",
+      "h1_count": 1,
+      "links_resolve": true
+    },
+    {
+      "route": "/products/claims-report",
+      "h1_count": 1,
+      "links_resolve": true
+    },
+    {
+      "route": "/why-losspacket",
+      "h1_count": 1,
+      "links_resolve": true
+    },
+    {
+      "route": "/how-it-works",
+      "h1_count": 1,
+      "links_resolve": true
+    },
+    {
+      "route": "/workspace",
+      "h1_count": 1,
+      "links_resolve": true
+    },
+    {
+      "route": "/solutions",
+      "h1_count": 1,
+      "links_resolve": true
+    },
+    {
+      "route": "/solutions/business-owners",
+      "h1_count": 1,
+      "links_resolve": true
+    },
+    {
+      "route": "/solutions/brokers-adjusters",
+      "h1_count": 1,
+      "links_resolve": true
+    },
+    {
+      "route": "/solutions/evidence-contributors",
+      "h1_count": 1,
+      "links_resolve": true
+    },
+    {
+      "route": "/demo",
+      "h1_count": 1,
+      "links_resolve": true
+    },
+    {
+      "route": "/demo/CL-14",
+      "h1_count": 1,
+      "links_resolve": true
+    },
+    {
+      "route": "/pricing",
+      "h1_count": 1,
+      "links_resolve": true
+    },
+    {
+      "route": "/pilot",
+      "h1_count": 1,
+      "links_resolve": true
+    },
+    {
+      "route": "/request-demo",
+      "h1_count": 1,
+      "links_resolve": true
+    },
+    {
+      "route": "/waitlist",
+      "h1_count": 1,
+      "links_resolve": true
+    },
+    {
+      "route": "/evaluation",
+      "h1_count": 1,
+      "links_resolve": true
+    },
+    {
+      "route": "/controls",
+      "h1_count": 1,
+      "links_resolve": true
+    },
+    {
+      "route": "/resources",
+      "h1_count": 1,
+      "links_resolve": true
+    },
+    {
+      "route": "/resources/document-checklist",
+      "h1_count": 1,
+      "links_resolve": true
+    },
+    {
+      "route": "/resources/business-income-records",
+      "h1_count": 1,
+      "links_resolve": true
+    },
+    {
+      "route": "/resources/professional-review",
+      "h1_count": 1,
+      "links_resolve": true
+    },
+    {
+      "route": "/about",
+      "h1_count": 1,
+      "links_resolve": true
+    },
+    {
+      "route": "/contact",
+      "h1_count": 1,
+      "links_resolve": true
+    },
+    {
+      "route": "/sign-in",
+      "h1_count": 1,
+      "links_resolve": true
+    },
+    {
+      "route": "/legal/privacy",
+      "h1_count": 1,
+      "links_resolve": true
+    },
+    {
+      "route": "/legal/terms",
+      "h1_count": 1,
+      "links_resolve": true
+    },
+    {
+      "route": "/privacy/delete",
+      "h1_count": 1,
+      "links_resolve": true
+    },
+    {
+      "route": "/404",
+      "h1_count": 1,
+      "links_resolve": true
+    }
+  ],
+  "failures": [],
+  "svg_xml_valid": 166,
+  "status": "passed"
+}

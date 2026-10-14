@@ -1,0 +1,8 @@
+website/node_modules/
+website/.next/
+website/out/
+website/tsconfig.tsbuildinfo
+.DS_Store
+work/
+
+website/.git-site-history/

@@ -1,0 +1,70 @@
+[
+  {
+    "path": "assets/fonts/SourceSerif4-OFL.txt",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/sourceserif4/OFL.txt",
+    "git_blob_sha": "318074ec9d43c936a56ee1dae92999f4df073ce8"
+  },
+  {
+    "path": "assets/fonts/SourceSerif4-Italic-Variable.ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/sourceserif4/SourceSerif4-Italic%5Bopsz%2Cwght%5D.ttf",
+    "git_blob_sha": "ccb969aa6847e1169ff9c8c8bdc28daff6966861"
+  },
+  {
+    "path": "assets/fonts/SourceSerif4-Variable.ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/sourceserif4/SourceSerif4%5Bopsz%2Cwght%5D.ttf",
+    "git_blob_sha": "40bbb58cb58e893ad0470f0bb291e096c73d3554"
+  },
+  {
+    "path": "assets/fonts/IBMPlexSans-Italic-Variable.ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsans/IBMPlexSans-Italic%5Bwdth%2Cwght%5D.ttf",
+    "git_blob_sha": "35722e5e79e3616407f479ece5c60c39c1efd68f"
+  },
+  {
+    "path": "assets/fonts/IBMPlexSans-Variable.ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsans/IBMPlexSans%5Bwdth%2Cwght%5D.ttf",
+    "git_blob_sha": "30f837e8b02e8ecddce6cbebc425b1f422392515"
+  },
+  {
+    "path": "assets/fonts/IBMPlexSans-OFL.txt",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsans/OFL.txt",
+    "git_blob_sha": "c35c4c618fab33da8695177b3a6cefe0810b7b28"
+  },
+  {
+    "path": "assets/fonts/IBMPlexMono-Italic.ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/IBMPlexMono-Italic.ttf",
+    "git_blob_sha": "d7f69134614ebdcaa10ebd36b0be1a44a035e157"
+  },
+  {
+    "path": "assets/fonts/IBMPlexMono-Medium.ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/IBMPlexMono-Medium.ttf",
+    "git_blob_sha": "33c546f68b6007a45a3f10e845523abb2db25399"
+  },
+  {
+    "path": "assets/fonts/IBMPlexMono-Regular.ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/IBMPlexMono-Regular.ttf",
+    "git_blob_sha": "0c9770d5183ba60dc4350d3e011b782a320761ae"
+  },
+  {
+    "path": "assets/fonts/IBMPlexMono-OFL.txt",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/OFL.txt",
+    "git_blob_sha": "c35c4c618fab33da8695177b3a6cefe0810b7b28"
+  },
+  {
+    "path": "assets/icons/linkedin.svg",
+    "source": "https://delivery-p143253-e1476319.adobeaemcloud.com/adobe/assets/urn:aaid:aem:cdd21f1b-fa7e-4cb1-951b-310afb840af2/original/as/icons.svg",
+    "component": "app-linkedin-bug-color-icon",
+    "source_page": "https://brand.linkedin.com/downloads",
+    "note": "Geometry and brand fill preserved; outer accessibility attributes added. Official PNG originals also retained."
+  },
+  {
+    "path": "assets/icons/*.svg",
+    "source": "https://github.com/lucide-icons/lucide",
+    "commit": "d672fc43dbf60962d9d829e35bc3b3e5ed89a178",
+    "license": "ISC with MIT for Feather-derived icons; bundled license retained"
+  },
+  {
+    "path": "assets/icons/crunchbase.svg",
+    "source": "https://github.com/simple-icons/simple-icons/blob/develop/icons/crunchbase.svg",
+    "license": "CC0 artwork; trademark conditions remain applicable"
+  }
+]

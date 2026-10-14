@@ -1,0 +1,165 @@
+{
+  "date": "2026-10-14",
+  "browser": [
+    {
+      "check": "Desktop 1440 \u00d7 900",
+      "result": "No page-level horizontal overflow; typography, controls and SVG identity inspected."
+    },
+    {
+      "check": "Tablet 834 \u00d7 1194",
+      "result": "No page-level horizontal overflow; policy-question hero and readable summary inspected."
+    },
+    {
+      "check": "Mobile 390 \u00d7 844",
+      "result": "No page-level horizontal overflow after fixing diagram grid min-width. Diagrams scroll within their own panel; key source facts are repeated in readable text."
+    },
+    {
+      "check": "All 33 route studies",
+      "result": "Each selected through the live selector; heading, SVG, DEMO disclosure and summary verified."
+    },
+    {
+      "check": "Keyboard focus",
+      "result": "Tab/Shift+Tab reached controls; visible outline confirmed. Focused flip label reached translateY(-20px)."
+    },
+    {
+      "check": "Pause and resume",
+      "result": "Pause toggled the root state and computed animation-play-state to paused; Resume restored it."
+    },
+    {
+      "check": "Reduced motion",
+      "result": "Manual control removed nonessential animations and preserved complete content. CSS also respects the operating-system media query; OS preference itself was not changed for this check."
+    },
+    {
+      "check": "Dark theme",
+      "result": "Toggle changed body to ink-night with cream text and reverse SVG logo; measured semantic pairs passed."
+    },
+    {
+      "check": "Local fonts",
+      "result": "Source Serif 4, IBM Plex Sans and IBM Plex Mono loaded; browser font checks returned true."
+    },
+    {
+      "check": "Runtime logs",
+      "result": "No console errors or warnings observed in the reviewed browser session."
+    },
+    {
+      "check": "Social/footer state",
+      "result": "Icons render as specimens; no invented LinkedIn/Crunchbase company destinations."
+    },
+    {
+      "check": "Small-size exports",
+      "result": "Actual 16/32/48/64/96/180/192/512 PNG dimensions and multi-size ICO verified. The small optical artwork is separate from the display symbol."
+    }
+  ],
+  "static": [
+    {
+      "check": "All SVG files parse",
+      "passed": true,
+      "detail": "130 files"
+    },
+    {
+      "check": "Logo masters contain paths and no embedded raster/text dependency",
+      "passed": true,
+      "detail": "17 SVG masters including optical mark"
+    },
+    {
+      "check": "Favicon 16px dimensions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Favicon 32px dimensions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Favicon 48px dimensions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Favicon 64px dimensions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Favicon 96px dimensions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Favicon 180px dimensions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Favicon 192px dimensions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Favicon 512px dimensions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "ICO contains expected sizes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "33 distinct IA routes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Each hero has an SVG, background image and texture",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Each hero discloses synthetic preview",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Every hero contains reduced-motion handling",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All 22 measured color pairs pass",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Three font family licenses present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Lucide and social artwork license documents present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Local HTML links and images resolve",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Canonical synthetic amount labels in worksheet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No outbound product actions, telemetry or credential submission",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "scope": "Representative visual review and DOM/state checks; not exhaustive WCAG certification, trademark clearance or production application validation.",
+  "logo_revision": {
+    "version": "1.0.1",
+    "verification": "Corrected review sheet visually compared with selected Joined LP reference; all 130 SVGs parse and 21 static checks pass. Earlier browser screenshots document layout and retain the previous logo; corrected-joined-lp.png documents the updated identity."
+  }
+}

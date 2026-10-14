@@ -1,0 +1,38 @@
+[
+  {
+    "asset": "assets/images/packet.png",
+    "origin": "Built-in image generation",
+    "role": "Original decorative still life; not real claim evidence",
+    "alt": "packet evidence-preparation material scene"
+  },
+  {
+    "asset": "assets/images/policy.png",
+    "origin": "Built-in image generation",
+    "role": "Original decorative still life; not real claim evidence",
+    "alt": "policy evidence-preparation material scene"
+  },
+  {
+    "asset": "assets/images/evidence.png",
+    "origin": "Built-in image generation",
+    "role": "Original decorative still life; not real claim evidence",
+    "alt": "evidence evidence-preparation material scene"
+  },
+  {
+    "asset": "assets/images/ledger.png",
+    "origin": "Built-in image generation",
+    "role": "Original decorative still life; not real claim evidence",
+    "alt": "ledger evidence-preparation material scene"
+  },
+  {
+    "asset": "assets/images/review.png",
+    "origin": "Built-in image generation",
+    "role": "Original decorative still life; not real claim evidence",
+    "alt": "review evidence-preparation material scene"
+  },
+  {
+    "asset": "assets/images/collaboration.png",
+    "origin": "Built-in image generation",
+    "role": "Original decorative still life; not real claim evidence",
+    "alt": "collaboration evidence-preparation material scene"
+  }
+]
