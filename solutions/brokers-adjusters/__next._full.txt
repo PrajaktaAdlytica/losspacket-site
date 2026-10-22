@@ -1,0 +1,29 @@
+1:"$Sreact.fragment"
+2:"/_next/static/chunks/1g3emqk37isc5.js"
+3:"/_next/static/chunks/0ptonf7z9bk6d.js"
+4:I[45910,["$2","$3"],"Shell"]
+5:I[39756,["$2","$3"],"default"]
+6:I[37457,["$2","$3"],"default"]
+7:I[45910,["$2","$3"],"Button"]
+c:I[97367,["$2","$3"],"OutletBoundary"]
+d:"$Sreact.suspense"
+f:"ViewportBoundary"
+10:I[97367,["$2","$3"],"$f"]
+12:"MetadataBoundary"
+13:I[97367,["$2","$3"],"$12"]
+15:I[68027,["$2","$3"],"default",1]
+:HL["/_next/static/chunks/3v56h9iruzhtj.css","style"]
+:HL["/brand/fonts.css","style"]
+9:X
+a:[["children",{"s":"__PAGE__","h":512,"d":{"r":["$","$1","c",{"children":["$Lb",[["$","script","script-0",{"src":"/_next/static/chunks/2xj4uqcxuptfb.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/3hlkgimky_-4q.js","async":true,"nonce":"$undefined"}]],["$","$Lc",null,{"children":["$","$d",null,{"name":"Next.MetadataOutlet","children":"$@e"}]}]]}],"p":false,"v":null}}]]
+8:[["children",{"s":{"n":"slug","t":"c","k":"solutions/brokers-adjusters","s":[]},"h":512,"d":{"r":["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":false,"v":"$9"},"c":"$Qa"}]]
+0:{"P":null,"c":["","solutions","brokers-adjusters",""],"q":"","i":false,"t":{"t":{"s":"","h":528,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3v56h9iruzhtj.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/1g3emqk37isc5.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0ptonf7z9bk6d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","data-scroll-behavior":"smooth","children":[["$","head",null,{"children":["$","link",null,{"rel":"stylesheet","href":"/brand/fonts.css"}]}],["$","body",null,{"children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","section",null,{"className":"section container narrow recovery","children":[["$","span",null,{"className":"eyebrow","children":"404 / A missing page"}],["$","h1",null,{"children":["This page isn’t",["$","br",null,{}],["$","em",null,{"children":"in the packet."}]]}],["$","p",null,{"children":"The evidence index is a good place to start again."}],["$","$L7",null,{"href":"/","children":"Return home"}],["$","$L7",null,{"href":"/demo","secondary":true,"children":"Explore the demo"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}]]}],"p":false,"v":null},"c":"$Q8"},"h":{"r":["$","$1","h",{"children":[null,["$","$L10",null,{"children":"$L11"}],["$","$L13",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$d",null,{"name":"Next.Metadata","children":"$L14"}]}],null]}],null]}],"p":false,"v":null}},"m":"$undefined","G":["$15",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3v56h9iruzhtj.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"oLrUnloDFsuTdSFtvyrM7"}
+16:"/_next/static/chunks/2xj4uqcxuptfb.js"
+17:"/_next/static/chunks/3hlkgimky_-4q.js"
+18:I[93375,["$2","$3","$16","$17"],"PageView"]
+9:C
+b:["$","$L18",null,{"path":"/solutions/brokers-adjusters"}]
+11:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+19:I[27201,["$2","$3"],"IconMark"]
+e:null
+14:[["$","title","0",{"children":"Brokers and adjusters | LossPacket"}],["$","meta","1",{"name":"description","content":"Inspect the evidence before reviewing the draft. Research-stage concept. No coverage or payout promise."}],["$","meta","2",{"name":"robots","content":"noindex, nofollow"}],["$","meta","3",{"property":"og:title","content":"LossPacket — Organize property-loss evidence."}],["$","meta","4",{"property":"og:description","content":"Sources, open questions and reviewed drafts. Research-stage concept."}],["$","meta","5",{"property":"og:image","content":"https://losspacket-evidence-preview.artfullarch32.chatgpt.site/brand/assets/images/packet.webp"}],["$","meta","6",{"property":"og:image:width","content":"1536"}],["$","meta","7",{"property":"og:image:height","content":"1024"}],["$","meta","8",{"property":"og:image:alt","content":"Illustrative LossPacket evidence folio"}],["$","meta","9",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","10",{"name":"twitter:title","content":"LossPacket — Organize property-loss evidence."}],["$","meta","11",{"name":"twitter:description","content":"Sources, open questions and reviewed drafts. Research-stage concept."}],["$","meta","12",{"name":"twitter:image","content":"https://losspacket-evidence-preview.artfullarch32.chatgpt.site/brand/assets/images/packet.webp"}],["$","meta","13",{"name":"twitter:image:alt","content":"Illustrative LossPacket evidence folio"}],["$","meta","14",{"name":"twitter:image:width","content":"1536"}],["$","meta","15",{"name":"twitter:image:height","content":"1024"}],["$","link","16",{"rel":"icon","href":"/brand/assets/favicons/favicon.svg","type":"image/svg+xml"}],["$","link","17",{"rel":"icon","href":"/brand/assets/favicons/favicon.ico"}],["$","link","18",{"rel":"apple-touch-icon","href":"/brand/assets/favicons/apple-touch-icon.png"}],["$","$L19","19",{}]]
